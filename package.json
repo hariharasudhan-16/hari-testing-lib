@@ -1,30 +1,34 @@
 {
-  "name": "devdactic-lib",
-  "version": "0.0.0-watch+1640248916357",
+  "name": "@hariharasudhan-16/devdactic-lib",
+  "version": "0.0.1",
   "peerDependencies": {
     "@angular/common": "^13.1.0",
     "@angular/core": "^13.1.0"
   },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:hariharasudhan-16/devdacticLibrary.git"
+  },
   "dependencies": {
     "tslib": "^2.3.0"
   },
-  "module": "fesm2015/devdactic-lib.mjs",
-  "es2020": "fesm2020/devdactic-lib.mjs",
-  "esm2020": "esm2020/devdactic-lib.mjs",
-  "fesm2020": "fesm2020/devdactic-lib.mjs",
-  "fesm2015": "fesm2015/devdactic-lib.mjs",
-  "typings": "devdactic-lib.d.ts",
+  "module": "fesm2015/hariharasudhan-16-devdactic-lib.mjs",
+  "es2020": "fesm2020/hariharasudhan-16-devdactic-lib.mjs",
+  "esm2020": "esm2020/hariharasudhan-16-devdactic-lib.mjs",
+  "fesm2020": "fesm2020/hariharasudhan-16-devdactic-lib.mjs",
+  "fesm2015": "fesm2015/hariharasudhan-16-devdactic-lib.mjs",
+  "typings": "hariharasudhan-16-devdactic-lib.d.ts",
   "exports": {
     "./package.json": {
       "default": "./package.json"
     },
     ".": {
-      "types": "./devdactic-lib.d.ts",
-      "esm2020": "./esm2020/devdactic-lib.mjs",
-      "es2020": "./fesm2020/devdactic-lib.mjs",
-      "es2015": "./fesm2015/devdactic-lib.mjs",
-      "node": "./fesm2015/devdactic-lib.mjs",
-      "default": "./fesm2020/devdactic-lib.mjs"
+      "types": "./hariharasudhan-16-devdactic-lib.d.ts",
+      "esm2020": "./esm2020/hariharasudhan-16-devdactic-lib.mjs",
+      "es2020": "./fesm2020/hariharasudhan-16-devdactic-lib.mjs",
+      "es2015": "./fesm2015/hariharasudhan-16-devdactic-lib.mjs",
+      "node": "./fesm2015/hariharasudhan-16-devdactic-lib.mjs",
+      "default": "./fesm2020/hariharasudhan-16-devdactic-lib.mjs"
     }
   },
   "sideEffects": false

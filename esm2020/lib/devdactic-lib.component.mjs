@@ -1,15 +1,26 @@
 import { Component } from '@angular/core';
 import * as i0 from "@angular/core";
-import * as i1 from "./post-card/post-card.component";
 export class DevdacticLibComponent {
     constructor() { }
     ngOnInit() {
     }
 }
-DevdacticLibComponent.ɵfac = i0.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "13.1.0", ngImport: i0, type: DevdacticLibComponent, deps: [], target: i0.ɵɵFactoryTarget.Component });
-DevdacticLibComponent.ɵcmp = i0.ɵɵngDeclareComponent({ minVersion: "12.0.0", version: "13.1.0", type: DevdacticLibComponent, selector: "wp-devdactic-lib", ngImport: i0, template: "<wp-post-card></wp-post-card>\n\n<p>\n  devdactic-lib works! hello\n</p>", components: [{ type: i1.PostCardComponent, selector: "wp-post-card", outputs: ["navigateBack"] }] });
-i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "13.1.0", ngImport: i0, type: DevdacticLibComponent, decorators: [{
+DevdacticLibComponent.ɵfac = i0.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "13.1.1", ngImport: i0, type: DevdacticLibComponent, deps: [], target: i0.ɵɵFactoryTarget.Component });
+DevdacticLibComponent.ɵcmp = i0.ɵɵngDeclareComponent({ minVersion: "12.0.0", version: "13.1.1", type: DevdacticLibComponent, selector: "wp-devdactic-lib", ngImport: i0, template: `
+    <p>
+      devdactic-lib works!
+    </p>
+  `, isInline: true });
+i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "13.1.1", ngImport: i0, type: DevdacticLibComponent, decorators: [{
             type: Component,
-            args: [{ selector: 'wp-devdactic-lib', styles: [], template: "<wp-post-card></wp-post-card>\n\n<p>\n  devdactic-lib works! hello\n</p>" }]
+            args: [{
+                    selector: 'wp-devdactic-lib',
+                    template: `
+    <p>
+      devdactic-lib works!
+    </p>
+  `,
+                    styles: []
+                }]
         }], ctorParameters: function () { return []; } });
-//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiZGV2ZGFjdGljLWxpYi5jb21wb25lbnQuanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyIuLi8uLi8uLi8uLi9wcm9qZWN0cy9kZXZkYWN0aWMtbGliL3NyYy9saWIvZGV2ZGFjdGljLWxpYi5jb21wb25lbnQudHMiLCIuLi8uLi8uLi8uLi9wcm9qZWN0cy9kZXZkYWN0aWMtbGliL3NyYy9saWIvZGV2ZGFjdGljLWxpYi5jb21wb25lbnQuaHRtbCJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSxPQUFPLEVBQUUsU0FBUyxFQUFVLE1BQU0sZUFBZSxDQUFDOzs7QUFRbEQsTUFBTSxPQUFPLHFCQUFxQjtJQUVoQyxnQkFBZ0IsQ0FBQztJQUVqQixRQUFRO0lBQ1IsQ0FBQzs7a0hBTFUscUJBQXFCO3NHQUFyQixxQkFBcUIsd0RDUmxDLDBFQUlJOzJGRElTLHFCQUFxQjtrQkFOakMsU0FBUzsrQkFDRSxrQkFBa0IsVUFFcEIsRUFDUCIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IENvbXBvbmVudCwgT25Jbml0IH0gZnJvbSAnQGFuZ3VsYXIvY29yZSc7XG5cbkBDb21wb25lbnQoe1xuICBzZWxlY3RvcjogJ3dwLWRldmRhY3RpYy1saWInLFxuICB0ZW1wbGF0ZVVybDogJy4vZGV2ZGFjdGljLWxpYi5jb21wb25lbnQuaHRtbCcsXG4gIHN0eWxlczogW1xuICBdXG59KVxuZXhwb3J0IGNsYXNzIERldmRhY3RpY0xpYkNvbXBvbmVudCBpbXBsZW1lbnRzIE9uSW5pdCB7XG5cbiAgY29uc3RydWN0b3IoKSB7IH1cblxuICBuZ09uSW5pdCgpOiB2b2lkIHtcbiAgfVxuXG59XG4iLCI8d3AtcG9zdC1jYXJkPjwvd3AtcG9zdC1jYXJkPlxuXG48cD5cbiAgZGV2ZGFjdGljLWxpYiB3b3JrcyEgaGVsbG9cbjwvcD4iXX0=
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiZGV2ZGFjdGljLWxpYi5jb21wb25lbnQuanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyIuLi8uLi8uLi8uLi9wcm9qZWN0cy9kZXZkYWN0aWMtbGliL3NyYy9saWIvZGV2ZGFjdGljLWxpYi5jb21wb25lbnQudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUEsT0FBTyxFQUFFLFNBQVMsRUFBVSxNQUFNLGVBQWUsQ0FBQzs7QUFZbEQsTUFBTSxPQUFPLHFCQUFxQjtJQUVoQyxnQkFBZ0IsQ0FBQztJQUVqQixRQUFRO0lBQ1IsQ0FBQzs7a0hBTFUscUJBQXFCO3NHQUFyQixxQkFBcUIsd0RBUnRCOzs7O0dBSVQ7MkZBSVUscUJBQXFCO2tCQVZqQyxTQUFTO21CQUFDO29CQUNULFFBQVEsRUFBRSxrQkFBa0I7b0JBQzVCLFFBQVEsRUFBRTs7OztHQUlUO29CQUNELE1BQU0sRUFBRSxFQUNQO2lCQUNGIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgQ29tcG9uZW50LCBPbkluaXQgfSBmcm9tICdAYW5ndWxhci9jb3JlJztcblxuQENvbXBvbmVudCh7XG4gIHNlbGVjdG9yOiAnd3AtZGV2ZGFjdGljLWxpYicsXG4gIHRlbXBsYXRlOiBgXG4gICAgPHA+XG4gICAgICBkZXZkYWN0aWMtbGliIHdvcmtzIVxuICAgIDwvcD5cbiAgYCxcbiAgc3R5bGVzOiBbXG4gIF1cbn0pXG5leHBvcnQgY2xhc3MgRGV2ZGFjdGljTGliQ29tcG9uZW50IGltcGxlbWVudHMgT25Jbml0IHtcblxuICBjb25zdHJ1Y3RvcigpIHsgfVxuXG4gIG5nT25Jbml0KCk6IHZvaWQge1xuICB9XG5cbn1cbiJdfQ==
